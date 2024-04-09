@@ -133,10 +133,10 @@ exam(
   question_wordbank(
     paste("The table provides the first 8 observations from a sample of 200 individuals, who reported their age, race, income, and job satisfaction score on a scale from 0 to 100.", htmltools::img(src="images/01_tableC.png", height = 300, width = 500)),
     box = 8,
-    choices = c("Which type of graphic would be most useful for visualizing the relationship between `Income` and `Score`?",
+    choices = c("Which type of graphic would be most useful for visualizing the relationship between `Score` and `Race`?",
                 "Which type of graphic would be most useful for visualizing the relationship between `Age` and `Income`?"),
-    wordbank = c("histogram", "scatterplot", "linegraph", "side-by-side boxplot", "stacked barplots"),
-    answer(c("side-by-side boxplot", "scatterplot"), correct = TRUE),
+    wordbank = c("histogram", "scatterplot", "linegraph", "side-by-side boxplot", "stacked barplot"),
+    answer(c("stacked barplot", "scatterplot"), correct = TRUE),
     allow_retry = TRUE,
     correct = "submitted",
     incorrect = "submitted"
