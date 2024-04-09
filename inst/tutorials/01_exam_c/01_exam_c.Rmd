@@ -260,14 +260,13 @@ This contains the responses to the questions you answered on day 1 of class. For
 
 For each application **only output/print the requested information**. If you are outputting miscellaneous information there will be a deduction.
 
+<br>
+
+Don't forget to click **Submit**. I recommend using **Submit** rather than "Run", that way you don't forget. You must submit every **code chunk**.
 
 ### Application 1 (1 points)
 
 Load the `dplyr` and `ggplot2` package.
-
-<br>
-
-Don't forget to click **Submit**. I recommend using **Submit** rather than "Run", that way you don't forget.
 
 ```{r App1, exercise=TRUE}
 
